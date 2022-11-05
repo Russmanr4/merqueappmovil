@@ -77,6 +77,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextUsername"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nombre Usuario"
@@ -115,6 +116,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextEmailR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Correo electronico"
@@ -151,6 +153,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextPasswordR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Contraseña"
@@ -187,6 +190,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditTextConfirmPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Confirmar Contraseña"
@@ -201,6 +205,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/btnregister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="REGISTRARSE"
@@ -208,7 +213,8 @@
             android:layout_gravity="bottom"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            />
 
 
 
